@@ -55,7 +55,7 @@ def clean_campaign_data():
     -Como acceder a los .zip
     -Crear los csv con los formatos requeridos
     """
-    ruta_csv = Path(r"files\input")
+    ruta_csv = Path("files/input")
     lista_csv = []
 
     for archivo in ruta_csv.rglob("*.zip"):
